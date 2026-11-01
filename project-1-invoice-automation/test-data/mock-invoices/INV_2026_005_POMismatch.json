@@ -1,0 +1,13 @@
+{
+    "tc_id": "TC-05",
+    "file_name": "INV_2026_005_POMismatch.json",
+    "invoice_number": "INV-2026-005",
+    "vendor_name": "Acme Logistics Ltd",
+    "po_number": "PO-2024-001",
+    "currency": "KES",
+    "subtotal": 2000.0,
+    "tax": 500.0,
+    "total": 2500.0,
+    "expected_status": "FAILED_VALIDATION",
+    "expected_error": "BE-04"
+}

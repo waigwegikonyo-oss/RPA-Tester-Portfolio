@@ -1,0 +1,13 @@
+{
+    "tc_id": "TC-01",
+    "file_name": "INV_2026_001_HappyPath.json",
+    "invoice_number": "INV-2026-001",
+    "vendor_name": "Acme Logistics Ltd",
+    "po_number": "PO-2024-001",
+    "currency": "KES",
+    "subtotal": 1000.0,
+    "tax": 250.0,
+    "total": 1250.0,
+    "expected_status": "PROCESSED",
+    "expected_error": "NONE"
+}

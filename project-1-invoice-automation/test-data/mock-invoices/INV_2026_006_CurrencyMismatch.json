@@ -1,0 +1,13 @@
+{
+    "tc_id": "TC-06",
+    "file_name": "INV_2026_006_CurrencyMismatch.json",
+    "invoice_number": "INV-2026-006",
+    "vendor_name": "Global Tech Supplies",
+    "po_number": "PO-2024-002",
+    "currency": "USD",
+    "subtotal": 4000.0,
+    "tax": 300.5,
+    "total": 4300.5,
+    "expected_status": "FAILED_VALIDATION",
+    "expected_error": "BE-05"
+}
