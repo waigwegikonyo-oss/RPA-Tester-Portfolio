@@ -1,0 +1,6 @@
+# Ignore temporary OS and execution files
+.DS_Store
+*.tmp
+*.log
+reports/*.xlsx
+reports/*.csv
