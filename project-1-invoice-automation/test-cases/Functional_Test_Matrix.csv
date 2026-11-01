@@ -1,0 +1,8 @@
+Test_ID,Scenario,Vendor,PO_Number,Currency,Subtotal,Tax,Total,Expected_Status,Expected_Error
+TC-01,Happy Path,Acme Logistics Ltd,PO-2024-001,KES,1000.00,250.00,1250.00,PROCESSED,NONE
+TC-02,Math Error,Acme Logistics Ltd,PO-2024-001,KES,1000.00,100.00,1250.00,FAILED_VALIDATION,BE-01
+TC-03,Re-submitted Invoice,Acme Logistics Ltd,PO-2024-001,KES,1000.00,250.00,1250.00,FAILED_VALIDATION,BE-02
+TC-04,Unregistered Vendor,Unknown Global Ltd,PO-2024-001,KES,1000.00,250.00,1250.00,FAILED_VALIDATION,BE-03
+TC-05,PO Mismatch,Acme Logistics Ltd,PO-2024-001,KES,2000.00,500.00,2500.00,FAILED_VALIDATION,BE-04
+TC-06,Currency Mismatch,Global Tech Supplies,PO-2024-002,USD,4000.00,300.50,4300.50,FAILED_VALIDATION,BE-05
+TC-07,Intra-Batch Duplicate,Apex Stationers,PO-2024-003,KES,600.00,80.00,680.00,FAILED_VALIDATION,BE-06
