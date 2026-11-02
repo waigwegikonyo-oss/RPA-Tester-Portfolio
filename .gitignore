@@ -2,5 +2,3 @@
 .DS_Store
 *.tmp
 *.log
-reports/*.xlsx
-reports/*.csv
