@@ -1,0 +1,10 @@
+{
+    "file_name": "INV_007A_BatchDup.json",
+    "invoice_number": "INV-2026-007",
+    "vendor_name": "Apex Stationers",
+    "po_number": "PO-2024-003",
+    "currency": "KES",
+    "subtotal": 600.0,
+    "tax": 80.0,
+    "total": 680.0
+}

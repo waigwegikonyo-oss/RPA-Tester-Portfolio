@@ -1,13 +1,10 @@
 {
-    "tc_id": "TC-04",
-    "file_name": "INV_2026_004_UnknownVendor.json",
+    "file_name": "INV_004_UnknownVendor.json",
     "invoice_number": "INV-2026-004",
     "vendor_name": "Unknown Global Ltd",
     "po_number": "PO-2024-001",
     "currency": "KES",
     "subtotal": 1000.0,
     "tax": 250.0,
-    "total": 1250.0,
-    "expected_status": "FAILED_VALIDATION",
-    "expected_error": "BE-03"
+    "total": 1250.0
 }

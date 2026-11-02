@@ -1,0 +1,10 @@
+{
+    "file_name": "INV_003_ReSubmitted.json",
+    "invoice_number": "INV-2026-003",
+    "vendor_name": "Acme Logistics Ltd",
+    "po_number": "PO-2024-001",
+    "currency": "KES",
+    "subtotal": 1000.0,
+    "tax": 250.0,
+    "total": 1250.0
+}
